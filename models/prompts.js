@@ -12,6 +12,10 @@ const PromptSchema = new Schema({
   creator: {
     type: String,
     required: [true, 'creator is required.'],
+  },
+  email: {
+    type: String,
+    required: [true, 'email is required.'],
   }
 });
 
